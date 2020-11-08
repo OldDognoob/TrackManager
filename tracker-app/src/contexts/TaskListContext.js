@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import {v1 as uuid} from 'uuid';
+uuid();
 
 export const TaskListContext = createContext()
 
