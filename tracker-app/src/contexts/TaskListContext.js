@@ -1,5 +1,5 @@
-import React, { createContext, useState, useEffect } from 'react'
-import uuid from 'uuid'
+import React, { createContext, useState, useEffect } from 'react';
+import {v1 as uuid} from 'uuid';
 
 export const TaskListContext = createContext()
 
@@ -63,4 +63,4 @@ const TaskListContextProvider = props => {
   )
 }
 
-export default TaskListContextProvider
+export default TaskListContextProvider;
